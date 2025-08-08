@@ -6,3 +6,7 @@ How to Run
 2. Invoke this frida script for bypass
    
 frida -U -l reveny-emulator-bypass.js -f  com.reveny.emulator.detection.sample
+
+Youtube Video
+
+https://www.youtube.com/watch?v=-bCbM7efoq8
