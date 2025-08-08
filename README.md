@@ -1,1 +1,2 @@
+I developed a custom Frida script to bypass emulator detection in the reveny project: https://github.com/reveny/Android-Emulator-Detection. The detection is implemented in JNI, and traditional scripts failed (https://codeshare.frida.re/@cubetech126/root-and-emulator-detection-bypass/). By analyzing the native code, I crafted a working bypass.
 frida -U -l reveny-emulator-bypass.js -f  com.reveny.emulator.detection.sample
